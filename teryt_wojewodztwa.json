@@ -1,0 +1,819 @@
+{  "root" : [
+{ "_comment_" : "|Dolnośląskie" },
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Lower Silesian Voivodeship",
+               "short_name" : "Lower Silesian Voivodeship",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Poland",
+               "short_name" : "PL",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Lower Silesian Voivodeship, Poland",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 51.8047592,
+                  "lng" : 17.798917
+               },
+               "southwest" : {
+                  "lat" : 50.09634,
+                  "lng" : 14.816831
+               }
+            },
+            "location" : {
+               "lat" : 51.13398609999999,
+               "lng" : 16.8841961
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 51.8047592,
+                  "lng" : 17.798917
+               },
+               "southwest" : {
+                  "lat" : 50.09634,
+                  "lng" : 14.816831
+               }
+            }
+         },
+         "place_id" : "ChIJ8UOYsiKqD0cRIMAOrTIOAgE",
+         "types" : [ "administrative_area_level_1", "political" ]
+      }
+   ],
+   "status" : "OK"
+},
+
+{ "_comment_": "|Kujawsko-pomorskie" },
+
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Kuyavian-Pomeranian Voivodeship",
+               "short_name" : "Kuyavian-Pomeranian Voivodeship",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Poland",
+               "short_name" : "PL",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Kuyavian-Pomeranian Voivodeship, Poland",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 53.7809987,
+                  "lng" : 19.7618466
+               },
+               "southwest" : {
+                  "lat" : 52.33079,
+                  "lng" : 17.2472674
+               }
+            },
+            "location" : {
+               "lat" : 53.1648363,
+               "lng" : 18.4834224
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 53.7809987,
+                  "lng" : 19.7618466
+               },
+               "southwest" : {
+                  "lat" : 52.33079,
+                  "lng" : 17.2472674
+               }
+            }
+         },
+         "place_id" : "ChIJE4dDGsQ2A0cRMMAOrTIOAgE",
+         "types" : [ "administrative_area_level_1", "political" ]
+      }
+   ],
+   "status" : "OK"
+},
+
+{ "_comment_": "|Lubelskie" },
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Lublin Voivodeship",
+               "short_name" : "Lublin Voivodeship",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Poland",
+               "short_name" : "PL",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Lublin Voivodeship, Poland",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 52.2879201,
+                  "lng" : 24.1458931
+               },
+               "southwest" : {
+                  "lat" : 50.251603,
+                  "lng" : 21.6171249
+               }
+            },
+            "location" : {
+               "lat" : 51.2493519,
+               "lng" : 23.1011392
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 52.2879201,
+                  "lng" : 24.1458931
+               },
+               "southwest" : {
+                  "lat" : 50.251603,
+                  "lng" : 21.6171249
+               }
+            }
+         },
+         "place_id" : "ChIJK0vVBBKtI0cRQMDkxa18AQE",
+         "types" : [ "administrative_area_level_1", "political" ]
+      }
+   ],
+   "status" : "OK"
+},
+
+{ "_comment_": "|Lubuskie" },
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Lubusz Voivodeship",
+               "short_name" : "Lubusz Voivodeship",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Poland",
+               "short_name" : "PL",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Lubusz Voivodeship, Poland",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 53.1239582,
+                  "lng" : 16.4163811
+               },
+               "southwest" : {
+                  "lat" : 51.363138,
+                  "lng" : 14.534127
+               }
+            },
+            "location" : {
+               "lat" : 52.2274612,
+               "lng" : 15.2559103
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 53.1239582,
+                  "lng" : 16.4163811
+               },
+               "southwest" : {
+                  "lat" : 51.363138,
+                  "lng" : 14.534127
+               }
+            }
+         },
+         "place_id" : "ChIJl-1h9KBdBkcRUMAOrTIOAgE",
+         "types" : [ "administrative_area_level_1", "political" ]
+      }
+   ],
+   "status" : "OK"
+},
+
+{ "_comment_": "|Łódzkie" },
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Łódź Voivodeship",
+               "short_name" : "Łódź Voivodeship",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Poland",
+               "short_name" : "PL",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Łódź Voivodeship, Poland",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 52.3940561,
+                  "lng" : 20.6591903
+               },
+               "southwest" : {
+                  "lat" : 50.8430329,
+                  "lng" : 18.0750521
+               }
+            },
+            "location" : {
+               "lat" : 51.4634771,
+               "lng" : 19.1726974
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 52.3940561,
+                  "lng" : 20.6591903
+               },
+               "southwest" : {
+                  "lat" : 50.8430329,
+                  "lng" : 18.0750521
+               }
+            }
+         },
+         "place_id" : "ChIJZWt_KnA3GkcRRhcejaLlBRY",
+         "types" : [ "administrative_area_level_1", "political" ]
+      }
+   ],
+   "status" : "OK"
+},
+
+{ "_comment_": "|Małopolskie" },
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Lesser Poland Voivodeship",
+               "short_name" : "Lesser Poland Voivodeship",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Poland",
+               "short_name" : "PL",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Lesser Poland Voivodeship, Poland",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 50.5200442,
+                  "lng" : 21.4213826
+               },
+               "southwest" : {
+                  "lat" : 49.1785791,
+                  "lng" : 19.083192
+               }
+            },
+            "location" : {
+               "lat" : 49.72253060000001,
+               "lng" : 20.2503359
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.5200442,
+                  "lng" : 21.4213826
+               },
+               "southwest" : {
+                  "lat" : 49.1785791,
+                  "lng" : 19.083192
+               }
+            }
+         },
+         "place_id" : "ChIJXe0Xc18WFkcRcMDkxa18AQE",
+         "types" : [ "administrative_area_level_1", "political" ]
+      }
+   ],
+   "status" : "OK"
+},
+
+{ "_comment_": "|Mazowieckie" },
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Masovian Voivodeship",
+               "short_name" : "Masovian Voivodeship",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Poland",
+               "short_name" : "PL",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Masovian Voivodeship, Poland",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 53.4818919,
+                  "lng" : 23.1283212
+               },
+               "southwest" : {
+                  "lat" : 51.0132082,
+                  "lng" : 19.2592569
+               }
+            },
+            "location" : {
+               "lat" : 51.8927182,
+               "lng" : 21.0021679
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 53.4818919,
+                  "lng" : 23.1283212
+               },
+               "southwest" : {
+                  "lat" : 51.0132082,
+                  "lng" : 19.2592569
+               }
+            }
+         },
+         "place_id" : "ChIJ-diLDIDRHkcRgMA4lLefAgE",
+         "types" : [ "administrative_area_level_1", "political" ]
+      }
+   ],
+   "status" : "OK"
+},
+
+{ "_comment_": "|Opolskie" },
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Opole Voivodeship",
+               "short_name" : "Opole Voivodeship",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Poland",
+               "short_name" : "PL",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Opole Voivodeship, Poland",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 51.1945111,
+                  "lng" : 18.6957862
+               },
+               "southwest" : {
+                  "lat" : 49.9724791,
+                  "lng" : 16.9087264
+               }
+            },
+            "location" : {
+               "lat" : 50.8003761,
+               "lng" : 17.937989
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 51.1945111,
+                  "lng" : 18.6957862
+               },
+               "southwest" : {
+                  "lat" : 49.9724791,
+                  "lng" : 16.9087264
+               }
+            }
+         },
+         "place_id" : "ChIJ8dBjhfStEUcRkMDkxa18AQE",
+         "types" : [ "administrative_area_level_1", "political" ]
+      }
+   ],
+   "status" : "OK"
+},
+
+{ "_comment_": "|Podkarpackie" },
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Podkarpackie Voivodeship",
+               "short_name" : "Podkarpackie Voivodeship",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Poland",
+               "short_name" : "PL",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Podkarpackie Voivodeship, Poland",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 50.8181161,
+                  "lng" : 23.5476409
+               },
+               "southwest" : {
+                  "lat" : 49.0020252,
+                  "lng" : 21.1423457
+               }
+            },
+            "location" : {
+               "lat" : 50.0574749,
+               "lng" : 22.0895691
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.8181161,
+                  "lng" : 23.5476409
+               },
+               "southwest" : {
+                  "lat" : 49.0020252,
+                  "lng" : 21.1423457
+               }
+            }
+         },
+         "place_id" : "ChIJtWGj2--LPEcRoMDkxa18AQE",
+         "types" : [ "administrative_area_level_1", "political" ]
+      }
+   ],
+   "status" : "OK"
+},
+
+{ "_comment_": "|Podlaskie" },
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Podlaskie Voivodeship",
+               "short_name" : "Podlaskie Voivodeship",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Poland",
+               "short_name" : "PL",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Podlaskie Voivodeship, Poland",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 54.409889,
+                  "lng" : 23.9462697
+               },
+               "southwest" : {
+                  "lat" : 52.2800528,
+                  "lng" : 21.5942443
+               }
+            },
+            "location" : {
+               "lat" : 53.0697159,
+               "lng" : 22.9674639
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 54.409889,
+                  "lng" : 23.9462697
+               },
+               "southwest" : {
+                  "lat" : 52.2800528,
+                  "lng" : 21.5942443
+               }
+            }
+         },
+         "place_id" : "ChIJRZjMVSwh4EYRy_GtRDS4U8g",
+         "types" : [ "administrative_area_level_1", "political" ]
+      }
+   ],
+   "status" : "OK"
+},
+
+{ "_comment_": "|Pomorskie" },
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Pomeranian Voivodeship",
+               "short_name" : "Pomeranian Voivodeship",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Poland",
+               "short_name" : "PL",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Pomeranian Voivodeship, Poland",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 54.83572969999999,
+                  "lng" : 19.6489837
+               },
+               "southwest" : {
+                  "lat" : 53.49067179999999,
+                  "lng" : 16.699129
+               }
+            },
+            "location" : {
+               "lat" : 54.2944252,
+               "lng" : 18.1531164
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 54.83572969999999,
+                  "lng" : 19.6489837
+               },
+               "southwest" : {
+                  "lat" : 53.49067179999999,
+                  "lng" : 16.699129
+               }
+            }
+         },
+         "place_id" : "ChIJowVujNqG_UYRwMAOrTIOAgE",
+         "types" : [ "administrative_area_level_1", "political" ]
+      }
+   ],
+   "status" : "OK"
+},
+
+{ "_comment_": "|Śląskie" },
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Silesian Voivodeship",
+               "short_name" : "Silesian Voivodeship",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Poland",
+               "short_name" : "PL",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Silesian Voivodeship, Poland",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 51.0993559,
+                  "lng" : 19.9739915
+               },
+               "southwest" : {
+                  "lat" : 49.393975,
+                  "lng" : 18.03475
+               }
+            },
+            "location" : {
+               "lat" : 50.5716595,
+               "lng" : 19.3219768
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 51.0993559,
+                  "lng" : 19.9739915
+               },
+               "southwest" : {
+                  "lat" : 49.393975,
+                  "lng" : 18.03475
+               }
+            }
+         },
+         "place_id" : "ChIJI_4pjVvOFkcRVyRWoIov_rA",
+         "types" : [ "administrative_area_level_1", "political" ]
+      }
+   ],
+   "status" : "OK"
+},
+
+{ "_comment_": "|Świętokrzyskie" },
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Swietokrzyskie",
+               "short_name" : "Swietokrzyskie",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Poland",
+               "short_name" : "PL",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Swietokrzyskie, Poland",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 51.3421558,
+                  "lng" : 21.868411
+               },
+               "southwest" : {
+                  "lat" : 50.1855379,
+                  "lng" : 19.7044002
+               }
+            },
+            "location" : {
+               "lat" : 50.6261041,
+               "lng" : 20.9406279
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 51.3421558,
+                  "lng" : 21.868411
+               },
+               "southwest" : {
+                  "lat" : 50.1855379,
+                  "lng" : 19.7044002
+               }
+            }
+         },
+         "place_id" : "ChIJzQPI7bX0F0cR4MDkxa18AQE",
+         "types" : [ "administrative_area_level_1", "political" ]
+      }
+   ],
+   "status" : "OK"
+},
+
+{ "_comment_": "|Warmińsko-mazurskie" },
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Warmian-Masurian Voivodeship",
+               "short_name" : "Warmian-Masurian Voivodeship",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Poland",
+               "short_name" : "PL",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Warmian-Masurian Voivodeship, Poland",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 54.44247259999999,
+                  "lng" : 22.8058724
+               },
+               "southwest" : {
+                  "lat" : 53.1399971,
+                  "lng" : 19.128516
+               }
+            },
+            "location" : {
+               "lat" : 53.8671117,
+               "lng" : 20.702786
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 54.44247259999999,
+                  "lng" : 22.8058724
+               },
+               "southwest" : {
+                  "lat" : 53.1399971,
+                  "lng" : 19.128516
+               }
+            }
+         },
+         "place_id" : "ChIJF67FrD4N4kYR8MAOrTIOAgE",
+         "types" : [ "administrative_area_level_1", "political" ]
+      }
+   ],
+   "status" : "OK"
+},
+
+{ "_comment_": "|Wielkopolskie" },
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Greater Poland Voivodeship",
+               "short_name" : "Greater Poland Voivodeship",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Poland",
+               "short_name" : "PL",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Greater Poland Voivodeship, Poland",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 53.6559175,
+                  "lng" : 19.103349
+               },
+               "southwest" : {
+                  "lat" : 51.1037882,
+                  "lng" : 15.7789647
+               }
+            },
+            "location" : {
+               "lat" : 52.279986,
+               "lng" : 17.3522939
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 53.6559175,
+                  "lng" : 19.103349
+               },
+               "southwest" : {
+                  "lat" : 51.1037882,
+                  "lng" : 15.7789647
+               }
+            }
+         },
+         "place_id" : "ChIJRRG3jpPtBEcRUCx0TfnBsbc",
+         "types" : [ "administrative_area_level_1", "political" ]
+      }
+   ],
+   "status" : "OK"
+},
+
+{ "_comment_": "|Zachodniopomorskie" },
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "West Pomeranian Voivodeship",
+               "short_name" : "West Pomeranian Voivodeship",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Poland",
+               "short_name" : "PL",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "West Pomeranian Voivodeship, Poland",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 54.5690916,
+                  "lng" : 16.9822089
+               },
+               "southwest" : {
+                  "lat" : 52.62466939999999,
+                  "lng" : 14.1223531
+               }
+            },
+            "location" : {
+               "lat" : 53.46578909999999,
+               "lng" : 15.1822581
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 54.5690916,
+                  "lng" : 16.9822089
+               },
+               "southwest" : {
+                  "lat" : 52.62466939999999,
+                  "lng" : 14.1223531
+               }
+            }
+         },
+         "place_id" : "ChIJLy84bzblAEcREMEOrTIOAgE",
+         "types" : [ "administrative_area_level_1", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
+
+] }

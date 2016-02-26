@@ -1,0 +1,402 @@
+
+R version 3.2.2 (2015-08-14) -- "Fire Safety"
+Copyright (C) 2015 The R Foundation for Statistical Computing
+Platform: x86_64-redhat-linux-gnu (64-bit)
+
+R jest oprogramowaniem darmowym i dostarczany jest BEZ JAKIEJKOLWIEK GWARANCJI.
+Możesz go rozpowszechniać pod pewnymi warunkami.
+Wpisz 'license()' lub 'licence()' aby uzyskać szczegóły dystrybucji.
+
+R jest projektem kolaboracyjnym z wieloma uczestnikami.
+Wpisz 'contributors()' aby uzyskać więcej informacji oraz
+'citation()' aby dowiedzieć się jak cytować R lub pakiety R w publikacjach.
+
+Wpisz 'demo()' aby zobaczyć demo, 'help()' aby uzyskać pomoc on-line, lub
+'help.start()' aby uzyskać pomoc w przeglądarce HTML.
+Wpisz 'q()' aby wyjść z R.
+
+[Poprzednio zapisany obszar roboczy został przywrócony]
+
+> woj_sum <- function(w) {
++ 	N.cut <- cut(subset(nazwy, woj==w)$n, breaks, right=FALSE) 
++ 	N.freq <- table(N.cut)
++ 	print ( N.freq )
++ 	print ( N.freq/sum(N.freq) )
++ 	print ( sum(N.freq/sum(N.freq)) )
++ }
+> 
+> ### ### ###
+> 
+> nazwy <- read.csv("nazwy_woj.csv", sep = ';',  header=T, na.string="NA");
+> #nazwy <- subset (nazwy, (n >1 ));
+> str(nazwy);
+'data.frame':	38590 obs. of  3 variables:
+ $ nazwa: Factor w/ 30695 levels "1","Abramowice Kościelne",..: 11644 16643 18464 17395 25225 14425 10237 11611 27805 4100 ...
+ $ woj  : Factor w/ 16 levels "dolnośląskie",..: 1 1 1 1 1 1 1 1 1 1 ...
+ $ n    : int  5 5 5 4 4 4 3 3 3 3 ...
+> old = options(digits=2) 
+> ##breaks <- seq(1, 30, by=1)
+> breaks <- c(1, 2, 3, 5, 30)
+> #breaks
+> 
+> #awkF '$2=="dolnośląskie" { s+= $3}; END { print s}' nazwy_woj.csv
+> # 2445
+> 
+> woj_sum("dolnośląskie")
+N.cut
+ [1,2)  [2,3)  [3,5) [5,30) 
+  2082    117     37      3 
+N.cut
+ [1,2)  [2,3)  [3,5) [5,30) 
+0.9299 0.0523 0.0165 0.0013 
+[1] 1
+> woj_sum("kujawsko-pomorskie")
+N.cut
+ [1,2)  [2,3)  [3,5) [5,30) 
+  2257    183     52     10 
+N.cut
+ [1,2)  [2,3)  [3,5) [5,30) 
+ 0.902  0.073  0.021  0.004 
+[1] 1
+> woj_sum("lubelskie")
+N.cut
+ [1,2)  [2,3)  [3,5) [5,30) 
+  2698    154     65     26 
+N.cut
+ [1,2)  [2,3)  [3,5) [5,30) 
+0.9168 0.0523 0.0221 0.0088 
+[1] 1
+> woj_sum("lubuskie")
+N.cut
+ [1,2)  [2,3)  [3,5) [5,30) 
+   965     57      5      0 
+N.cut
+ [1,2)  [2,3)  [3,5) [5,30) 
+0.9396 0.0555 0.0049 0.0000 
+[1] 1
+> woj_sum("łódzkie")
+N.cut
+ [1,2)  [2,3)  [3,5) [5,30) 
+  3276    275     99     45 
+N.cut
+ [1,2)  [2,3)  [3,5) [5,30) 
+ 0.887  0.074  0.027  0.012 
+[1] 1
+> woj_sum("małopolskie")
+N.cut
+ [1,2)  [2,3)  [3,5) [5,30) 
+  1594    105     21      4 
+N.cut
+ [1,2)  [2,3)  [3,5) [5,30) 
+0.9246 0.0609 0.0122 0.0023 
+[1] 1
+> woj_sum("mazowieckie")
+N.cut
+ [1,2)  [2,3)  [3,5) [5,30) 
+  5780    466    177     79 
+N.cut
+ [1,2)  [2,3)  [3,5) [5,30) 
+ 0.889  0.072  0.027  0.012 
+[1] 1
+> woj_sum("opolskie")
+N.cut
+ [1,2)  [2,3)  [3,5) [5,30) 
+   941     39      9      1 
+N.cut
+ [1,2)  [2,3)  [3,5) [5,30) 
+0.9505 0.0394 0.0091 0.0010 
+[1] 1
+> woj_sum("podkarpackie")
+N.cut
+ [1,2)  [2,3)  [3,5) [5,30) 
+  1429     49     17      2 
+N.cut
+ [1,2)  [2,3)  [3,5) [5,30) 
+0.9546 0.0327 0.0114 0.0013 
+[1] 1
+> woj_sum("podlaskie")
+N.cut
+ [1,2)  [2,3)  [3,5) [5,30) 
+  2852    136     42      9 
+N.cut
+ [1,2)  [2,3)  [3,5) [5,30) 
+ 0.938  0.045  0.014  0.003 
+[1] 1
+> woj_sum("pomorskie")
+N.cut
+ [1,2)  [2,3)  [3,5) [5,30) 
+  1579     58     13      2 
+N.cut
+ [1,2)  [2,3)  [3,5) [5,30) 
+0.9558 0.0351 0.0079 0.0012 
+[1] 1
+> woj_sum("śląskie")
+N.cut
+ [1,2)  [2,3)  [3,5) [5,30) 
+  1033     48      7      2 
+N.cut
+ [1,2)  [2,3)  [3,5) [5,30) 
+0.9477 0.0440 0.0064 0.0018 
+[1] 1
+> woj_sum("świętokrzyskie")
+N.cut
+ [1,2)  [2,3)  [3,5) [5,30) 
+  1844    111     51     12 
+N.cut
+ [1,2)  [2,3)  [3,5) [5,30) 
+0.9138 0.0550 0.0253 0.0059 
+[1] 1
+> woj_sum("warmińsko-mazurskie")
+N.cut
+ [1,2)  [2,3)  [3,5) [5,30) 
+  2060    128     34      3 
+N.cut
+ [1,2)  [2,3)  [3,5) [5,30) 
+0.9258 0.0575 0.0153 0.0013 
+[1] 1
+> woj_sum("wielkopolskie")
+N.cut
+ [1,2)  [2,3)  [3,5) [5,30) 
+  3378    310     99     19 
+N.cut
+ [1,2)  [2,3)  [3,5) [5,30) 
+ 0.888  0.081  0.026  0.005 
+[1] 1
+> woj_sum("zachodniopomorskie")
+N.cut
+ [1,2)  [2,3)  [3,5) [5,30) 
+  1504    117     19      1 
+N.cut
+  [1,2)   [2,3)   [3,5)  [5,30) 
+0.91651 0.07130 0.01158 0.00061 
+[1] 1
+> 
+> 
+> nazwy5 <- subset (nazwy, (n >4 ));
+> nazwy5
+              nazwa                 woj  n
+1        Księginice        dolnośląskie  5
+2         Nowy Dwór        dolnośląskie  5
+3        Piotrowice        dolnośląskie  5
+2240      Nowa Wieś  kujawsko-pomorskie 14
+2241       Dąbrówka  kujawsko-pomorskie  9
+2242      Nowy Dwór  kujawsko-pomorskie  8
+2243         Janowo  kujawsko-pomorskie  7
+2244        Zalesie  kujawsko-pomorskie  7
+2245        Ostrowo  kujawsko-pomorskie  6
+2246       Zakrzewo  kujawsko-pomorskie  6
+2247       Józefowo  kujawsko-pomorskie  6
+2248    Białe Błota  kujawsko-pomorskie  5
+2249        Brzeźno  kujawsko-pomorskie  5
+4742        Marysin           lubelskie  9
+4743       Brzeziny           lubelskie  8
+4744        Zalesie           lubelskie  8
+4745        Dąbrowa           lubelskie  7
+4746     Stara Wieś           lubelskie  7
+4747    Władysławów           lubelskie  6
+4748     Antoniówka           lubelskie  6
+4749         Nowiny           lubelskie  6
+4750        Józefów           lubelskie  6
+4751       Ludwinów           lubelskie  6
+4752         Dębina           lubelskie  6
+4753        Natalin           lubelskie  5
+4754       Zastawie           lubelskie  5
+4755     Nowosiółki           lubelskie  5
+4756    Stanisławów           lubelskie  5
+4757           Ruda           lubelskie  5
+4758           Kąty           lubelskie  5
+4759     Michałówka           lubelskie  5
+4760        Janówka           lubelskie  5
+4761         Ostrów           lubelskie  5
+4762       Zabłocie           lubelskie  5
+4763           Huta           lubelskie  5
+4764        Wysokie           lubelskie  5
+4765      Nowa Wieś           lubelskie  5
+4766     Wojciechów           lubelskie  5
+4767      Siedliska           lubelskie  5
+8712      Nowa Wieś         mazowieckie 28
+8713        Zalesie         mazowieckie 23
+8714        Dąbrowa         mazowieckie 21
+8715        Helenów         mazowieckie 16
+8716    Władysławów         mazowieckie 16
+8717        Józefów         mazowieckie 15
+8718    Aleksandrów         mazowieckie 15
+8719       Dąbrówka         mazowieckie 14
+8720         Zawady         mazowieckie 14
+8721    Stanisławów         mazowieckie 13
+8722           Ruda         mazowieckie 11
+8723       Marianów         mazowieckie 11
+8724          Janów         mazowieckie 11
+8725       Ludwików         mazowieckie 10
+8726       Kamionka         mazowieckie 10
+8727          Górki         mazowieckie 10
+8728          Borki         mazowieckie  9
+8729       Ostrówek         mazowieckie  9
+8730         Lipiny         mazowieckie  9
+8731        Grabina         mazowieckie  9
+8732        Janówek         mazowieckie  9
+8733        Marysin         mazowieckie  8
+8734       Józefowo         mazowieckie  8
+8735     Stara Wieś         mazowieckie  8
+8736         Majdan         mazowieckie  8
+8737           Łazy         mazowieckie  8
+8738       Michałów         mazowieckie  8
+8739         Wygoda         mazowieckie  7
+8740    Bronisławów         mazowieckie  7
+8741       Julianów         mazowieckie  7
+8742      Sewerynów         mazowieckie  7
+8743        Adamowo         mazowieckie  7
+8744          Grądy         mazowieckie  7
+8745      Trzcianka         mazowieckie  7
+8746          Osiny         mazowieckie  7
+8747         Adamów         mazowieckie  7
+8748           Kąty         mazowieckie  7
+8749      Emilianów         mazowieckie  6
+8750          Żuków         mazowieckie  6
+8751       Wymysłów         mazowieckie  6
+8752         Pieńki         mazowieckie  6
+8753        Lipniki         mazowieckie  6
+8754        Grabowo         mazowieckie  6
+8755    Franciszków         mazowieckie  6
+8756       Mościska         mazowieckie  6
+8757        Dębówka         mazowieckie  6
+8758      Mała Wieś         mazowieckie  6
+8759        Natolin         mazowieckie  6
+8760         Piaski         mazowieckie  6
+8761        Anielin         mazowieckie  6
+8762        Bieliny         mazowieckie  6
+8763           Lipa         mazowieckie  6
+8764      Wincentów         mazowieckie  6
+8765    Kazimierzów         mazowieckie  6
+8766       Pogorzel         mazowieckie  5
+8767  Aleksandrówka         mazowieckie  5
+8768        Józefin         mazowieckie  5
+8769          Laski         mazowieckie  5
+8770           Huta         mazowieckie  5
+8771       Kałęczyn         mazowieckie  5
+8772        Łaziska         mazowieckie  5
+8773       Marianka         mazowieckie  5
+8774      Pawłowice         mazowieckie  5
+8775        Karolew         mazowieckie  5
+8776          Osiek         mazowieckie  5
+8777        Zakrzew         mazowieckie  5
+8778         Zamość         mazowieckie  5
+8779      Chmielewo         mazowieckie  5
+8780         Ostrów         mazowieckie  5
+8781         Rososz         mazowieckie  5
+8782    Białobrzegi         mazowieckie  5
+8783        Romanów         mazowieckie  5
+8784        Pawłowo         mazowieckie  5
+8785       Wyczółki         mazowieckie  5
+8786         Kozłów         mazowieckie  5
+8787       Podgórze         mazowieckie  5
+8788       Dąbrówki         mazowieckie  5
+8789        Ignaców         mazowieckie  5
+8790        Jakubów         mazowieckie  5
+15214 Przybysławice         małopolskie  6
+15215       Zawadka         małopolskie  5
+15216     Siedliska         małopolskie  5
+15217     Biskupice         małopolskie  5
+16938    Jakubowice            opolskie  5
+17928     Nowa Wieś        podkarpackie  7
+17929       Zalesie        podkarpackie  5
+19425       Zalesie           podlaskie  9
+19426      Olszanka           podlaskie  8
+19427     Ogrodniki           podlaskie  8
+19428         Wólka           podlaskie  7
+19429        Janowo           podlaskie  5
+19430        Rybaki           podlaskie  5
+19431       Nowinka           podlaskie  5
+19432      Nowosady           podlaskie  5
+19433       Jałówka           podlaskie  5
+22464      Dąbrówka           pomorskie  8
+22465     Ostrowite           pomorskie  5
+24116       Zalesie warmińsko-mazurskie  7
+24117     Nowa Wieś warmińsko-mazurskie  5
+24118       Olszewo warmińsko-mazurskie  5
+26341       Dąbrowa       wielkopolskie 15
+26342     Nowa Wieś       wielkopolskie 13
+26343       Bielawy       wielkopolskie  9
+26344       Zalesie       wielkopolskie  8
+26345     Biskupice       wielkopolskie  7
+26346      Zakrzewo       wielkopolskie  7
+26347     Marianowo       wielkopolskie  6
+26348      Józefowo       wielkopolskie  6
+26349       Józefów       wielkopolskie  6
+26350          Ruda       wielkopolskie  5
+26351        Zawady       wielkopolskie  5
+26352        Piaski       wielkopolskie  5
+26353       Brzezie       wielkopolskie  5
+26354     Chrustowo       wielkopolskie  5
+26355          Góra       wielkopolskie  5
+26356       Drzewce       wielkopolskie  5
+26357        Kamień       wielkopolskie  5
+26358     Nowy Dwór       wielkopolskie  5
+26359      Kamionka       wielkopolskie  5
+30147       Grabowo  zachodniopomorskie  5
+31788       Józefów             łódzkie 20
+31789       Dąbrowa             łódzkie 17
+31790         Janów             łódzkie 17
+31791      Dąbrówka             łódzkie 14
+31792   Stanisławów             łódzkie 14
+31793     Nowa Wieś             łódzkie 11
+31794       Zalesie             łódzkie 11
+31795        Piaski             łódzkie 11
+31796        Adamów             łódzkie 11
+31797        Zawady             łódzkie 10
+31798      Marianów             łódzkie 10
+31799        Ostrów             łódzkie  9
+31800   Władysławów             łódzkie  9
+31801      Stefanów             łódzkie  9
+31802       Helenów             łódzkie  8
+31803        Dębina             łódzkie  8
+31804   Aleksandrów             łódzkie  8
+31805      Julianów             łódzkie  7
+31806   Bronisławów             łódzkie  7
+31807      Marianka             łódzkie  7
+31808         Borki             łódzkie  7
+31809    Stara Wieś             łódzkie  7
+31810      Brzeziny             łódzkie  7
+31811           Gaj             łódzkie  7
+31812      Michałów             łódzkie  7
+31813      Ludwików             łódzkie  6
+31814         Witów             łódzkie  6
+31815        Wygoda             łódzkie  6
+31816   Kazimierzów             łódzkie  6
+31817       Kuźnica             łódzkie  6
+31818       Anielin             łódzkie  6
+31819       Karolew             łódzkie  6
+31820          Ruda             łódzkie  6
+31821      Antoniew             łódzkie  5
+31822      Jeziorko             łódzkie  5
+31823  Konstantynów             łódzkie  5
+31824       Zakrzew             łódzkie  5
+31825     Emilianów             łódzkie  5
+31826         Osiny             łódzkie  5
+31827        Poręby             łódzkie  5
+31828      Feliksów             łódzkie  5
+31829        Borowa             łódzkie  5
+31830       Zagórze             łódzkie  5
+31831      Teodorów             łódzkie  5
+31832      Wymysłów             łódzkie  5
+35483        Zawada             śląskie  6
+35484     Nowa Wieś             śląskie  6
+36573        Wolica      świętokrzyskie  9
+36574      Wymysłów      świętokrzyskie  8
+36575      Podlesie      świętokrzyskie  8
+36576       Hucisko      świętokrzyskie  6
+36577       Zagórze      świętokrzyskie  5
+36578     Nowa Wieś      świętokrzyskie  5
+36579      Brzeście      świętokrzyskie  5
+36580       Zakrzów      świętokrzyskie  5
+36581         Janów      świętokrzyskie  5
+36582         Bugaj      świętokrzyskie  5
+36583      Ludwinów      świętokrzyskie  5
+36584         Górki      świętokrzyskie  5
+> 
+> #fivenum(nazwy$n);
+> #mean(nazwy$n);
+> 
+> proc.time()
+użytkownik     system   upłynęło 
+     1.807      0.042      1.841 
