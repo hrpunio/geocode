@@ -1,3 +1,23 @@
+# obrysy powiatów i gmin w Polsce
+
+Obrysy 2478 gmin w PL
+na podstawie danych z https://gis-support.pl/baza-wiedzy/dane-do-pobrania/
+lub http://www.codgik.gov.pl/index.php/darmowe-dane.html
+lub https://www.geoportal.gov.pl/dane/panstwowy-rejestr-granic
+Konwersja do formatu KML za pomocą programu ogr2ogr:
+  ogr2ogr -f 'KML' -s_srs epsg:2180 -t_srs EPSG:4326 gminyPL.kml gminy.shp
+Uwaga1: ponieważ plik ten wielkości nie zostanie w całości zaimportowany np. do GoogleMaps (licencja darmowa)
+istnieje jego wersja uproszczona w której każdy obrys zredukowany do max 99 punktów
+
+Obrysy 380 powiatów w PL
+na podstawie danych z https://gis-support.pl/baza-wiedzy/dane-do-pobrania/
+lub http://www.codgik.gov.pl/index.php/darmowe-dane.html
+lub https://www.geoportal.gov.pl/dane/panstwowy-rejestr-granic
+Konwersja do formatu KML za pomocą programu ogr2ogr:
+ogr2ogr -f 'KML' -s_srs epsg:2180 -t_srs EPSG:4326 powiatyPL.kml powiaty.shp
+Uwaga1: ponieważ plik ten wielkości nie zostanie w całości zaimportowany np. do GoogleMaps (licencja darmowa)
+istnieje jego wersja uproszczona w której każdy obrys zredukowany do max 250 punktów.
+
 # geocode
 Dnia 19 października 2015 r. zostało opublikowane w Dzienniku Ustaw (poz. 1636)
 obwieszczenie Ministra Administracji i Cyfryzacji z dnia 4 sierpnia 2015 r.
